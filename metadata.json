@@ -1,0 +1,7 @@
+{
+  "name": "Mix Music Stream - Professional Radio",
+  "description": "Uma plataforma de rádio cristã profissional com sistema de tutorial dinâmico, versículos diários e interface premium animada.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

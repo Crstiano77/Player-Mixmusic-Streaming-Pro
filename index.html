@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix Music | Web Rádio Professional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#D32F2F',
+              bgDark: '#0A0A0A',
+              cardBg: '#161616',
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+            },
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.28.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+<body class="bg-bgDark text-gray-100 font-sans">
+    <div id="root"></div>
+</body>
+</html>
